@@ -82,7 +82,7 @@ pip3.6 install -r requirements.txt &>>$LOGFILE
 
 VALIDATE $? "installing python 6"
 
-cp /root/roboshop-shell/payments.service  /etc/systemd/system/payments.service &>>$LOGFILE
+cp /root/roboshop-shell-tf/payments.service  /etc/systemd/system/payments.service &>>$LOGFILE
 
 VALIDATE $? "copying file to system location"
 
